@@ -1,16 +1,16 @@
-# My Bütçe — son tarihli tasarruf hedefleri
+# My Bütçe — aylık karşılaştırmalar
 
-Son tarihli tasarruf hedefleri eklendi.
+Aylık karşılaştırmalar ve sesli sorgular eklendi.
 
-Hedef adı, tutarı, biriken tutar ve son tarih üzerinden gereken aylık birikim hesaplanır. Biriken tutar güncellendiğinde plan yeniden hesaplanır.
-Sesli örnek: “Tatil için 20 bin lira hedef oluştur” → “31 Temmuz 2027” → “Onaylıyorum”. Eksikler sorulur; onaydan önce hedef kaydedilmez.
-Ana ekranda Tasarruf hedeflerim düğmesi ve hedef ekranında manuel form bulunur. “Hedeflerimi aç” sesli komutu desteklenir.
-Hedef takibi hesap bakiyelerini veya gelir-gider kayıtlarını otomatik değiştirmez. Hedefler SQLite ve JSON yedeğinde korunur.
+Raporlar ekranında gelir/gider/net farkı ve kategori bazında artış/azalış görülür. Aynı dönem varsayılanı bu ayın bugüne kadarki günlerini geçen ayın aynı aralığıyla karşılaştırır; Tam ay ve hesap filtresi de vardır.
+Önceki tutar sıfırsa yüzde hesaplanmaz. Transfer ve başlangıç bakiyeleri hariçtir.
+Sesli örnekler: “Geçen aya göre ne kadar fazla harcadım?”, “Markete geçen aya göre ne kadar harcadım?”, “Maaşım geçen aya göre ne kadar arttı?”, “En çok hangi kategori arttı?”
+Sesli sorgular bu ayın aynı dönemini ve tüm hesapları kullanır; kayıt oluşturmaz.
 
-[Android test APK indir](https://raw.githubusercontent.com/alikosar-seudo/my-butce/v0.1.5-test/my-butce-test.apk)
+[Android test APK indir](https://raw.githubusercontent.com/alikosar-seudo/my-butce/v0.1.6-test/my-butce-test.apk)
 
-Mevcut uygulamanın üzerine güncelleme olarak kurulabilir. Android sürüm: 1.0.5 (kod 6).
-48 core ve 39 UI/hook kontrolü, typecheck, lint ve native Android derleme başarılı.
-Yeni hedef özellikleri fiziksel telefonda henüz test edilmedi.
+Mevcut uygulamanın üzerine güncelleme olarak kurulabilir. Android sürüm: 1.0.6 (kod 7).
+53 core ve 42 UI/hook testi, typecheck, lint ve native Android derleme başarılı.
+Yeni karşılaştırma akışı fiziksel telefonda henüz test edilmedi.
 APK test anahtarıyla imzalıdır; Google Play üretim sürümü değildir.
-SHA256: `cd0a179c3e7b68dad22403f015c70771c39519d5ea34f9af54ec50583121d555`
+SHA256: `9af2d3734d94adf85ffaf2441451de8595e5600f82783b013233e44c3d89d6f0`
