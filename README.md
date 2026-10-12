@@ -1,18 +1,16 @@
-# My Bütçe — hızlı kayıt, kategoriler ve yedek
+# My Bütçe — son tarihli tasarruf hedefleri
 
-Kullanımı kolaylaştıran Android güncellemesi.
+Son tarihli tasarruf hedefleri eklendi.
 
-- Ana ekranda Market, Ulaşım ve Maaş için hızlı sesli kayıt: tutarı söyle, sesle onayla.
-- “Bugün ne harcadım?” ve “Son işlemi düzelt” komutları. Düzeltme onaydan önce mevcut kaydı değiştirmez.
-- Günlük harcama, kategori limitlerinde kalan tutar ve yaklaşan/geciken ödeme planları.
-- Kategori limitlerinde %80/%100 uyarıları ve Ayarlar’dan isteğe bağlı bildirimler.
-- JSON yedeği doğrulama, önizleme ve onayla geri yükleme. Geri yükleme mevcut verilerin yerini alır; önce dışa aktar.
-- 25 gider ve 10 gelir kategorisi; arama ve ekranın üstünden manuel özel kategori ekleme. Mevcut/özel/arşivli kategoriler korunur.
+Hedef adı, tutarı, biriken tutar ve son tarih üzerinden gereken aylık birikim hesaplanır. Biriken tutar güncellendiğinde plan yeniden hesaplanır.
+Sesli örnek: “Tatil için 20 bin lira hedef oluştur” → “31 Temmuz 2027” → “Onaylıyorum”. Eksikler sorulur; onaydan önce hedef kaydedilmez.
+Ana ekranda Tasarruf hedeflerim düğmesi ve hedef ekranında manuel form bulunur. “Hedeflerimi aç” sesli komutu desteklenir.
+Hedef takibi hesap bakiyelerini veya gelir-gider kayıtlarını otomatik değiştirmez. Hedefler SQLite ve JSON yedeğinde korunur.
 
-[Android test APK indir](https://raw.githubusercontent.com/alikosar-seudo/my-butce/v0.1.4-test/my-butce-test.apk)
+[Android test APK indir](https://raw.githubusercontent.com/alikosar-seudo/my-butce/v0.1.5-test/my-butce-test.apk)
 
-Mevcut uygulamanın üzerine güncelleme olarak kurulabilir. Android sürüm: 1.0.4 (kod 5).
-42 core ve 35 UI/hook testi geçti. Typecheck, lint ve Android native derleme başarılı.
-Yeni özellikler fiziksel telefonda henüz test edilmedi; önceki sesli onay akışı kullanıcı tarafından doğrulandı.
+Mevcut uygulamanın üzerine güncelleme olarak kurulabilir. Android sürüm: 1.0.5 (kod 6).
+48 core ve 39 UI/hook kontrolü, typecheck, lint ve native Android derleme başarılı.
+Yeni hedef özellikleri fiziksel telefonda henüz test edilmedi.
 APK test anahtarıyla imzalıdır; Google Play üretim sürümü değildir.
-SHA256: `f61d3146774e9060f2bacfbfeacd9fc90a13181d1f0cb2e98454d9b585c5bfa9`
+SHA256: `cd0a179c3e7b68dad22403f015c70771c39519d5ea34f9af54ec50583121d555`
