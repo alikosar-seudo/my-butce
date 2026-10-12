@@ -1,16 +1,18 @@
-# My Bütçe — onay sorusunun seslendirilmesi
+# My Bütçe — hızlı kayıt, kategoriler ve yedek
 
-Kayıt onay sorusunun genel sesli yanıt ayarı kapalıyken sessiz kalması giderildi.
+Kullanımı kolaylaştıran Android güncellemesi.
 
-Kayıt soruları, onay ve iptal sonuçları sesli okunur. Taslakta Soruyu tekrar dinle düğmesi eklendi.
+- Ana ekranda Market, Ulaşım ve Maaş için hızlı sesli kayıt: tutarı söyle, sesle onayla.
+- “Bugün ne harcadım?” ve “Son işlemi düzelt” komutları. Düzeltme onaydan önce mevcut kaydı değiştirmez.
+- Günlük harcama, kategori limitlerinde kalan tutar ve yaklaşan/geciken ödeme planları.
+- Kategori limitlerinde %80/%100 uyarıları ve Ayarlar’dan isteğe bağlı bildirimler.
+- JSON yedeği doğrulama, önizleme ve onayla geri yükleme. Geri yükleme mevcut verilerin yerini alır; önce dışa aktar.
+- 25 gider ve 10 gelir kategorisi; arama ve ekranın üstünden manuel özel kategori ekleme. Mevcut/özel/arşivli kategoriler korunur.
 
-“500 TL market alışverişi yaptım” → tutar, kategori, hesap ve tarih okunur; “Onaylıyor musun?” sorulur.
-“Onaylıyorum” → kaydeder. “Onaylamıyorum” / “İptal et” → kaydetmeden iptal eder.
-Eksik bilgi sorulur; düzeltmeler tekrar onaya sunulur. Gelir ve transfer de aynı onay akışını kullanır.
+[Android test APK indir](https://raw.githubusercontent.com/alikosar-seudo/my-butce/v0.1.4-test/my-butce-test.apk)
 
-[Android test APK indir](https://raw.githubusercontent.com/alikosar-seudo/my-butce/v0.1.3-test/my-butce-test.apk)
-
-Mevcut uygulamanın üzerine güncelleme olarak kurulabilir. Android sürüm: 1.0.3 (kod 4).
-31 core ve 27 UI/hook testi geçti; typecheck, lint ve native APK derlemesi başarılı. Bu sürüm fiziksel telefonda henüz test edilmedi.
+Mevcut uygulamanın üzerine güncelleme olarak kurulabilir. Android sürüm: 1.0.4 (kod 5).
+42 core ve 35 UI/hook testi geçti. Typecheck, lint ve Android native derleme başarılı.
+Yeni özellikler fiziksel telefonda henüz test edilmedi; önceki sesli onay akışı kullanıcı tarafından doğrulandı.
 APK test anahtarıyla imzalıdır; Google Play üretim sürümü değildir.
-SHA256: `a259c2083d8b44dfc854b4ddd2336196f2a8bc2ce9b9975c55c64366526b28b6`
+SHA256: `f61d3146774e9060f2bacfbfeacd9fc90a13181d1f0cb2e98454d9b585c5bfa9`
